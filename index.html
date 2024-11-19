@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">My Portfolio</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="theme-toggle">🌙</button>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" data-aos="fade-up">
+    <div class="about-container">
+      <img src="./assets/Img.png" alt="Profile" class="profile-pic">
+      <div>
+        <h2>About Me</h2>
+        <p>Hello! I'm Muhammad Saqib, a passionate Front-End Developer. I specialize in creating clean, interactive, and responsive websites.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" data-aos="fade-right">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>User Management</h3>
+        <p>
+          A comprehensive application designed for managing user accounts. 
+          Features include user registration, profile updates, role-based 
+          access control, and secure authentication. Built with a focus on 
+          scalability and user-friendly design.
+        </p>
+        <a href="https://react-frontend-alpha-lemon.vercel.app/" class="project-link">View Details</a>
+      </div>
+      
+      <div class="project-card">
+        <h3>Calculator App</h3>
+        <p>
+          A basic calculator application supporting arithmetic operations such as 
+          addition, subtraction, multiplication, and division. Built with a clean 
+          UI and responsive design.
+        </p>
+        <a href="https://saqibm19a.github.io/CodeAlpha_Project_Build-a-Calculator/" class="project-link">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" data-aos="fade-left">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2024 My Portfolio [Muhammad Saqib]. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
